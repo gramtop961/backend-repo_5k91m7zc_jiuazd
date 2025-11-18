@@ -1,0 +1,15 @@
+INFO:     Will watch for changes in these directories: ['/home/workspace']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [152] using StatReload
+INFO:     Started server process [154]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     172.20.0.1:33694 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:33702 - "GET /discover?q=pet&limit=12 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33702 - "GET /discover?q=pet&limit=12 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:55340 - "GET /discover?q=pet&limit=12 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:55340 - "GET /discover?q=pet&limit=12 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49914 - "OPTIONS /analyze HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49914 - "POST /analyze HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49914 - "GET /discover?q=www.flamesblue.com&limit=12 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49928 - "GET /discover?q=%40Recommentt&limit=12 HTTP/1.1" 200 OK
